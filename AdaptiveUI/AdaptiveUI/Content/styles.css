@@ -1,0 +1,47 @@
+﻿@media all and (max-width: 1000px) {
+
+	.quote {
+		display: block;
+	}
+	.quote colgroup,
+	.quote thead {
+		display: none;
+	}
+	.quote tbody {
+		display: block;
+		overflow: hidden;
+	}
+	.quote tr {
+		display: block;
+		float: left;
+		width: 100%;
+		margin: 40px 0 0;
+		border: 1px solid #ddd;
+	}
+	.quote td {
+		display: block;
+		border: none;
+		padding: 10px;
+	}
+}
+
+
+@media all and (min-width: 481px) {
+
+	.quote tr {
+		width: 46%;
+		margin: 40px 2% 0;
+	}
+
+	.quote tr:nth-child(2n+1) {
+		clear: both;
+	}
+	.order-details-page .data-table tr {
+		width: 46%;
+		margin: 40px 2% 0;
+	}
+	.order-details-page .data-table tr:nth-child(2n+1) {
+		clear: both;
+	}
+}
+
